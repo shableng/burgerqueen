@@ -1,0 +1,287 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(247,247,247);
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(247,247,247);
+    padding: 10px;
+    
+}
+
+.navcontainer{
+    display: flex;
+    font-size: 150%;
+    padding: 10px;
+}
+
+
+.navcontainer div{
+   margin: 0 30px;
+    
+}
+
+.home a{
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover a{
+    color: rgb(227, 149, 47);
+}
+
+.speisekarte a{
+    color: black;
+    transition: 0.3s;
+    text-decoration: none ;
+}
+
+.speisekarte:hover a{
+    color: rgb(227, 149, 47);
+}
+
+.karriere a{
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.karriere:hover a{
+    color: rgb(227, 149, 47);
+}
+
+.location a{
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.location:hover a{
+    color: rgb(227, 149, 47);
+}
+
+.homecontainer{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.gambar1{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.menucontainer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 200px 50px;
+}
+
+.spezialitäten table{
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 150%;
+    padding: 50px;
+    margin: 50px 50px;
+    background-color: rgb(255,255,255);
+    line-height: 2;
+
+
+}
+
+.getraenke table{
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 150%;
+    padding: 50px;
+    margin: 50px 50px;
+    background-color: rgb(255,255,255);
+    line-height: 2;
+}
+
+.beilage table{
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 150%;
+    padding: 50px;
+    margin: 50px 50px;
+    background-color: rgb(255,255,255);
+    line-height: 2;
+}
+
+.formularjob{
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    width: 50%;
+    margin: 50px 400px;
+    padding: 10px;
+    background-color: rgb(230, 219, 219);
+    box-shadow: 5px 5px 10px;
+    line-height: 1.5;
+       
+}
+
+.daftar{
+    text-align: center;
+    margin: 0px 0px;
+    font-size: 150%;
+    font-weight: 800;
+}
+
+.karrierecontainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+.leftsection{
+
+}
+
+.gridcontainer{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 200px 200px 200px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.griditem{
+    color: rgb(216, 210, 210);
+}
+
+.gridcontainer2{
+    display: grid;
+    column-gap: 0;
+    grid-template-columns: 100px 100px 100px;
+    padding: 10px;
+    text-align: right;
+}
+
+.gridcontainer2 img{
+    width: 30%;
+
+}
+
+.griditem2{
+    font-size: 30px;
+}
+
+.griditem2 i{
+    transition: transform 0.3s;
+}
+.griditem2 i:hover {
+  transform: scale(1.5);
+    
+}
+
+
+
+.rightsection{
+    color: rgb(216, 210, 210);
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 19, 19);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(247,247,247);
+}
+
+.burgerqueen{
+    font-size: 200%;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.rightcontainer{
+    padding: 3px;
+    font-size: 150%
+}
+
+.headline{
+    font-size: 300%;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.namaburger{
+    font-size: 150%;
+}
+
+input[type=submit] {
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(227, 149, 47);
+    opacity: 0.6;
+    transition: 0.3s;
+    border: 0;
+    box-shadow: 5px 5px 10px;
+
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+}
+
+.tulisanlogo{
+    font-size: 200%;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.sosmed{
+    padding: 10px;
+}
+
+.alamat1{
+    margin: 30px 0px;
+}
+
+.alamat2{
+    margin: 30px 0px;
+}
+
+.alamat3{
+    margin: 30px 0px;
+}
+
+.pembuat{
+   margin: 10px 0px;
+    
+}
+
+.anmelden{
+    border: solid;
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.anmelden:hover {
+    background-color: rgb(23, 19, 19);
+    color: rgb(247,247,247);
+}

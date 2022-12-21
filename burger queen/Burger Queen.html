@@ -1,0 +1,311 @@
+<html>
+
+<head>
+    <title>Burger Queen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css    ">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="heading">
+            <div class="burgerqueen">BURGER QUEEN</div>
+            <div class="navcontainer">
+                <div class="home"><a href="#beranda">Home</a></div>
+                <div class="speisekarte"><a href="#menu">Speisekarte</a></div>
+                <div class="karriere"><a href="#job">Karriere</a></div>
+                <div class="location"><a href="#foot">Location</a></div>
+            </div>
+            <div class="rightcontainer">
+                <div class="anmelden">anmelden</div>
+            </div>
+        </div>
+
+        <div id="beranda" class="homecontainer">
+            <img class="gambar1" src="cheddar burger.jpg">
+            <div class="headline">BURGER DES MONATS</div>
+            <div class="namaburger">DOUBLE BEEF CHEDDAR BURGER</div>
+        </div>
+
+        <div id="menu" class="menucontainer">
+            <div class="spezialitäten">
+                <table>
+                    <tr>
+                        <th>Spezialitäten</th>
+                    </tr>
+                    <tr>
+                        <td>Jumbo Double Burger</td>
+                    </tr>
+                    <tr>
+                        <td>Beef Bacon Burger</td>
+                    </tr>
+                    <tr>
+                        <td>Double Beef Cheddar Burger</td>
+                    </tr>
+                    <tr>
+                        <td>Jumbo Crispy Chicken Burger</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="getraenke">
+                <table>
+                    <tr>
+                        <th>Getränke</th>
+                    </tr>
+                    <tr>
+                        <td>Cola</td>
+                    </tr>
+                    <tr>
+                        <td>Fanta</td>
+                    </tr>
+                    <tr>
+                        <td>Sprite</td>
+                    </tr>
+                    <tr>
+                        <td>Milchshake</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="beilage">
+                <table>
+                    <tr>
+                        <th>Beilage</th>
+                    </tr>
+                    <tr>
+                        <td>Pommes</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Nuggets</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Wings</td>
+                    </tr>
+                    <tr>
+                        <td>Onion Rings</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="job" class="karrierecontainer">
+            <div class="daftar">Bewirb dich jetzt!</div>
+            <div class="formularjob">
+                <form>
+                    <label for="fname">Vorname</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Nachname</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">E-Mail</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="telefon">Telefon</label><br>
+                    <input type="text" id="telefon" name="telefon"><br>
+                    <label for="standort">Standort</label><br>
+                    <select name="standort" id="standort">
+                        <option>Trier</option>
+                        <option>Wittlich</option>
+                        <option>Saarbrücken</option>
+                    </select><br>
+                    <input type="radio" id="vollzeit" name="arbeitszeit" value="vollzeit">
+                    <label for="vollzeit">Vollzeit</label><br>
+                    <input type="radio" id="teilzeit" name="arbeitszeit" value="teilzeit">
+                    <label for="teilzeit">Teilzeit</label><br>
+                    <input type="radio" id="minijob" name="arbeitszeit" value="minijob">
+                    <label for="minijob">Minijob</label><br>
+
+                    Wo können Sie arbeiten?<br>
+                    <input type="checkbox" id="arbeitsort1" name="arbeitsort1" value="Zurmaiener">
+                    <label for="arbeitsort1">Zurmaiener Straße</label><br>
+                    <input type="checkbox" id="arbeitsort2" name="arbeitsort2" value="Porta Nigra">
+                    <label for="arbeitsort2">Porta Nigra</label><br>
+                    <input type="checkbox" id="arbeitsort3" name="arbeitsort3" value="Hauptbahnhof">
+                    <label for="arbeitsort3">Hauptbahnhof</label><br>
+
+                    <label for="comments">Bemerkungen</label><br>
+                    <textarea name="anmerkung" id="anmerkung" cols="30" rows="4"></textarea><br>
+                    <input type="submit" name="btnsubmit" id="btnsubmit" value="Absenden">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="foot" class="footer">
+            <div class="leftsection">
+                <div class="gridcontainer">
+                    <div class="griditem">Zurmaiener Straße
+                        <div class="alamat1">
+                            Zurmaiener Straße 98<br>
+                            54292 Trier<br>
+                            +49 12345678<br><br>
+                            Montag - Sonntag<br>
+                            10:00 - 23:00 Uhr
+                        </div>
+                    </div>
+                    <div class="griditem">Porta Nigra
+                        <div class="alamat2">
+                            Simeonstraße 9<br>
+                            54290 Trier<br>
+                            +49 321456732<br><br>
+                            Montag - Sonntag<br>
+                            09:00 - 22:00 Uhr
+                        </div>
+                    </div>
+                    <div class="griditem">Hauptbahnhof
+                        <div class="alamat3">
+                            Fabrikstraße 3<br>
+                            54290 Trier<br>
+                            +49 98765432<br><br>
+                            Montag - Sonntag<br>
+                            07:00 - 00:00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <div class="tulisanlogo">Burger Queen</div>
+                <div class="sosmed">Finden Sie uns hier</div>
+                <div class="gridcontainer2">
+                    <div class="griditem2">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="griditem2">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="griditem2">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+                <div class="pembuat">
+                    James Sebastian<br>
+                    Matrikelnummer: 976325
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
+
+
+<!--
+    
+
+<h2 align="center" id="homepage"> <b>WIR SERVIEREN GROßE XXL BURGER!!</b> </h2>
+<section style="text-align:center;">
+    <img src="big burger.jpg"  height="300" width="500"><br>
+    <i>Burger Of The Month</i><br>
+    <p style= "font-size: 20px"><b>JUMBO DOUBLE BURGER</b></p>
+</section>
+
+<br><br><br><br>
+
+<h1 id="menu">
+    <b>Speisekarte</b>
+</h1>
+
+<br><br>
+
+<table border="1" height="200" width="70%" align="center">
+    <tr>
+      <th>Spezialitäten</th>
+      <th>Beilage</th>
+      <th>Getränke</th>
+    </tr>
+    <tr>
+      <td>Jumbo Double Burger</td>
+      <td>Cola</td>
+      <td>Pommes</td>
+    </tr>
+    <tr>
+      <td>Beef Bacon Burger</td>
+      <td>Fanta</td>
+      <td>Chicken Nuggets</td>
+    </tr>
+    <tr>
+        <td>Double Beef Cheddar Burger</td>
+        <td>Sprite</td>
+        <td>Chicken Wings</td>
+    </tr>
+    <tr>
+        <td>Jumbo Crispy Chicken Burger</td>
+        <td>Milchshake (Erdbeer, Vanille, Schokolade)</td>
+        <td>Onion Rings</td>
+    </tr>
+  </table>
+
+<br><br>
+
+<p align="center"><img src="beef bacon.jpg" height="200" width="400">
+    <img src="cheddar burger.jpg" height="200" width="400">
+    <img src="crispy chicken.jpg" height="200" width="400">
+</p>
+    
+<br><br><br><br>
+
+<h1 id="kontak">Kontakt</h1>
+
+<ul>
+    <li><b><i>Adresse</i></b></li>
+    Burger Queen GmbH<br>
+    Zurmaiener Straße 98<br>
+    54292 Trier
+    <li><b><i>E-Mail</i></b></li>
+    kontakt@burgerqueen.de
+    <li><b><i>Sozial Medien</i></b></li>
+    <p><a href=""><img src="facebook.png" height="30" width="30">Burger Queen DE</a></p>
+    <p><a href=""><img src="instagram.png" height="30" width="30">burgerqueen.de</a></p>
+    <p><a href=""><img src="twitter.png" height="30" width="30">burgerqueen.de</a></p>
+</ul>
+
+<br><br><br><br>
+
+<h1 id="karrier">Karriere</h1>
+
+<form>
+    <label for="fname">Vorname:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Nachname:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">E-Mail:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="telefon">Telefon:</label><br>
+    <input type="text" id="telefon" name="telefon"><br>
+    <label for="standort">Standort:</label><br>
+    <select name="standort" id="standort">
+        <option>Trier</option>
+        <option>Wittlich</option>
+        <option>Saarbrücken</option>
+    </select><br>
+    <input type="radio" id="vollzeit" name="arbeitszeit" value="vollzeit">
+    <label for="vollzeit">Vollzeit</label><br>
+    <input type="radio" id="teilzeit" name="arbeitszeit" value="teilzeit">
+    <label for="teilzeit">Teilzeit</label><br>
+    <input type="radio" id="minijob" name="arbeitszeit" value="minijob">
+    <label for="minijob">Minijob</label><br>
+
+    Wo können Sie arbeiten?<br>
+    <input type="checkbox" id="arbeitsort1" name="arbeitsort1" value="Zurmaiener">
+    <label for="arbeitsort1">Zurmaiener Straße</label><br>
+    <input type="checkbox" id="arbeitsort2" name="arbeitsort2" value="Porta Nigra">
+    <label for="arbeitsort2">Porta Nigra</label><br>
+    <input type="checkbox" id="arbeitsort3" name="arbeitsort3" value="Hauptbahnhof">
+    <label for="arbeitsort3">Hauptbahnhof</label><br>
+
+    <label for="comments">Bemerkungen:</label><br>
+    <textarea name="anmerkung" id="anmerkung" cols="30" rows="4"></textarea><br>
+
+    <input type="submit" name="btnsubmit" id="btnsubmit" value="Absenden">
+</form>
+
+<footer style="background-color:rgb(182, 127, 255)">James Sebastian<br>
+    Matrikelnummer: 976325<br>
+54292 Trier
+</footer>
+-->
